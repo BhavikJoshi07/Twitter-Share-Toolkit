@@ -1,16 +1,16 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Twitter Share Toolkit",
+  "description": "A simple CHrome Extension to share text, links, images and pages to Twitter.",
   "version": "1.0",
-
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+  "icons" : {
+    "128" : "icon.png",
+    "64" : "icon.png",
+    "32" : "icon.png",
+    "16" : "icon.png"
   },
-  "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+  "background" : {
+    "scripts" : ["background.js"]
+  }
 }
