@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Twitter Share Toolkit",
-  "description": "A simple CHrome Extension to share text, links, images and pages to Twitter.",
+  "description": "A simple Chrome Extension to share text, links, images and pages to Twitter.",
   "version": "1.0",
   "icons" : {
     "128" : "icon.png",
